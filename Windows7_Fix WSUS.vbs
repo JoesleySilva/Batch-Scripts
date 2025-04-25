@@ -6,7 +6,7 @@ Set objDrives = objNetwork.EnumNetworkDrives
 Set objShell = WScript.CreateObject("WScript.Shell")
 ON ERROR RESUME NEXT
 
-'############################### COME«A O SCRIPT AQUI ###############################
+'############################### COME√áA O SCRIPT AQUI ###############################
 objShell.run "cmd /c echo script_ok>c:\windows\gposcript.txt",6,True
 '************************************************************************************
 '*            SE O NOME DO HOST TIVER A PALAVRA "SRV" ELE SAI DO SCRIPT             *
@@ -40,7 +40,7 @@ If CorrigeWindows7 = "1" Then
 End If
 objShell.run "cmd /c echo PASSOU_WINDOWS_7>>c:\windows\gposcript.txt",6,True
 '************************************************************************************
-'*                      	  CORRE«’ES WSUS	                            *
+'*                      	  CORRE√á√ïES WSUS	                            *
 '************************************************************************************
 
 sRegKey = "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate"
@@ -260,7 +260,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"			
 
-'********* Secretaria de ComÈrcio e ServiÁos- MDIC/SCS **************************
+'********* Secretaria de Com√©rcio e Servi√ßos- MDIC/SCS **************************
 
 ' 		Case "FS-READ-SIARCO"
 '			Mapeia "X:", "\\FILESERVER\SIARCO$"
@@ -362,7 +362,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"
 
-'********* Secretaria de Gest„o Corporativa - MDIC/SE/SGC **************************
+'********* Secretaria de Gest√£o Corporativa - MDIC/SE/SGC **************************
 
 
 		Case "FS-READ-MDIC_SE_SGC"
@@ -393,7 +393,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "T:"
 
 
-'********* Subsecretaria de Planejamento, OrÁamento e AdministraÁ„o - MDIC/SE/SPOA **************************
+'********* Subsecretaria de Planejamento, Or√ßamento e Administra√ß√£o - MDIC/SE/SPOA **************************
 
  		Case "FS-READ-MDIC_SE_SPOA"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -431,7 +431,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"
 
-'********* CoordenaÁ„o-Geral de ModernizaÁ„o e Inform·tica - MDIC/SE/SPOA/CGMI **************************
+'********* Coordena√ß√£o-Geral de Moderniza√ß√£o e Inform√°tica - MDIC/SE/SPOA/CGMI **************************
 
  		Case "FS-READ-MDIC_SE_SPOA_CGMI"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -739,7 +739,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"
 
-'********* CoordenaÁ„o-Geral de Recursos LogÌsticos - MDIC/SE/SPOA/CGRL **************************
+'********* Coordena√ß√£o-Geral de Recursos Log√≠sticos - MDIC/SE/SPOA/CGRL **************************
 
  		Case "FS-READ-MDIC_SE_SPOA_CGRL"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -924,7 +924,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "T:"
 
 
-'********* Secretaria de InovaÁ„o - MDIC/SIN **************************
+'********* Secretaria de Inova√ß√£o - MDIC/SIN **************************
 
    		Case "FS-READ-MDIC_SIN"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -982,7 +982,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"
 
-'********* Secretaria Executiva do Conselho Nacional das Zonas de Processamento de ExportaÁ„o - MDIC/CZPE **************************
+'********* Secretaria Executiva do Conselho Nacional das Zonas de Processamento de Exporta√ß√£o - MDIC/CZPE **************************
 
  		Case "FS-READ-MDIC_CZPE"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -1020,7 +1020,7 @@ For Each strGroup in objUser.MemberOf
 			DesconectarUnidade "H:"
 			DesconectarUnidade "T:"
 
-'********* Secret·ria Executiva da C‚mara de ComÈrcio Exterior - MDIC/CAMEX **************************
+'********* Secret√°ria Executiva da C√¢mara de Com√©rcio Exterior - MDIC/CAMEX **************************
 
 		Case "FS-READ-MDIC_CAMEX"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -1050,7 +1050,7 @@ For Each strGroup in objUser.MemberOf
 '			DesconectarUnidade "T:"
 
 
-'********* Secretaria de ComÈrcio Exterior - MDIC/SECEX **************************
+'********* Secretaria de Com√©rcio Exterior - MDIC/SECEX **************************
 
 		Case "FS-READ-MDIC_SECEX"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -1455,7 +1455,7 @@ Case "FS-READ-MDIC_SECEX_DEAEX_CGET_BCBPESQUISA"
 		
 
 
-'********* Secretaria de ComÈrcio e ServiÁos - MDIC/SCS **************************
+'********* Secretaria de Com√©rcio e Servi√ßos - MDIC/SCS **************************
 
 		Case "FS-READ-MDIC_SCS"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -1533,7 +1533,7 @@ Case "FS-READ-MDIC_SECEX_DEAEX_CGET_BCBPESQUISA"
 
 
 
-'********* SECRETARIA DE DESENVOLVIMENTO E PRODU«√O - MDIC/SDP**************************
+'********* SECRETARIA DE DESENVOLVIMENTO E PRODU√á√ÉO - MDIC/SDP**************************
 
         Case "FS-READ-MDIC_SDP"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
@@ -1900,7 +1900,7 @@ Case "FS-READ-MDIC_SECEX_DEAEX_CGET_BCBPESQUISA"
 			Mapeia "P:", "\\FILESERVER\mdic$\SEPEC\SDIC\SI\CGFN\DIVEX"
 
 		
-'********* CoordenaÁ„o-Geral de Planejamento OrÁamento e FinanÁas - MDIC/SE/SPOA/CGOF **************************
+'********* Coordena√ß√£o-Geral de Planejamento Or√ßamento e Finan√ßas - MDIC/SE/SPOA/CGOF **************************
 
 		Case "FS-READ-MDIC_SE_SPOA_CGOF"
 			Mapeia "S:", "\\FILESERVER\SISTEMAS_MDIC$"
