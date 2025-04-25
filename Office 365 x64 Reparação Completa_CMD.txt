@@ -1,0 +1,2 @@
+cd “C:\Program Data files\Common Files\Microsoft Shared\ClickToRun\
+OfficeClickToRun.exe” scenario=Repair system=x64 culture=pt-br RepairType=FullRepair DisplayLevel=True
